@@ -38,6 +38,8 @@ Project enabled by the following:
 
 Gas-wise, Open Zeppelin implementation costs the most, both referring to deployment and function calls. An notable observation would be that the ERC721M deployment cost is higher than the ERC721A one despite scoring lower gas costs in its function calls. ERC721A scored a praiseworthy gas perfomance and ERC721M still is the most gas efficient implementation even with a deployment cost slightly higher than ERC721A.
 
+**_NOTE:_**  Polygon and Binance gas report values can be found in the prints directory.
+
 <br>
 
   **The absolute gas values scored are the following**: 
