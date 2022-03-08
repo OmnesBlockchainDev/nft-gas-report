@@ -76,13 +76,9 @@ The average price for deploying and minting a single layer 2 compatible NFT floa
 - [Yarn](https://classic.yarnpkg.com/en/docs/install/);
 - [Git](https://git-scm.com/downloads).
 
-<br>
-
 ### Setting the `.env` file
 
 Before running any command, you need to create a `.env` file and set a 12 word BIP-39 compatible mnemonic, a Infura Ethereum API key and a Etherscan API key as environment variables. Follow the example in `.env.example`. If you don't already have a mnemonic, use this [website](https://iancoleman.io/bip39/) to generate one. You can get your API keys for Infura and Etherscan, respectively, [here][33] and [here][44].
-
-<br>
 
 ### Install
 
@@ -127,9 +123,6 @@ class Config {
 
 #### You can get your own `coinmarketcap` API key [here][55] and change `{INSERT_API_KEY}` for it .
 
-<br>
-
-
 - #### `token` and `gasPriceApi` options:
 
 | Network            | token | gasPriceApi                                                      |
@@ -141,7 +134,6 @@ class Config {
 * Should be set to Ethereum for Immutable X contracts testing. 
 ---
 
-<br>
 <br>
 
 ### Fork
@@ -160,7 +152,6 @@ $ yarn hardhat node --fork "{INSERT_MAINNET_ENDPOINT}"
 
 ---
 
-<br>
 <br>
 
 ### **Gas test the Layer 1 NFTs**
@@ -182,7 +173,6 @@ $ yarn imxtest
 
 ---
 
-<br>
 <br>
 
 ### Clean
